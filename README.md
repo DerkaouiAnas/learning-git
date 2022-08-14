@@ -1,3 +1,5 @@
+# GIT cheatsheet
+
 `git init .` initializing git repository
 
 `git status` shows the current state of the git working directory and staging area
@@ -6,4 +8,10 @@
 
 a commit is a save point
 
-`git commit -m "commiting message"`   -> this will save the current state of the working directory (only added files) 
+`git commit -m "commiting message"`   -> this will save the current state of the working directory (after adding them to the staging area) 
+
+`git log` -> to see changes that we have commited
+
+`git show {hashcode of the commit}` -> to see changes by the commit
+
+`git diff` -> give the difference between the current working directory and what has been committed
