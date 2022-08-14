@@ -15,3 +15,7 @@ a commit is a save point
 `git show {hashcode of the commit}` -> to see changes by the commit
 
 `git diff` -> give the difference between the current working directory and what has been committed
+
+`git restore {filename}` -> discard changes on a file  (if modified after a commit)
+
+`git commit --amend -m "message"` -> this will amend (modify) the commit message
