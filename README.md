@@ -6,6 +6,11 @@
 
 `git add .` add all the files in the current directory into the staging area
 
+`git reset {filename}` undo `git add {filename}`
+
+`git rest` to unstage all changes for all files
+
+
 a commit is a save point
 
 `git commit -m "commiting message"`   -> this will save the current state of the working directory (after adding them to the staging area) 
