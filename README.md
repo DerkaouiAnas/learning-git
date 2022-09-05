@@ -16,6 +16,8 @@ a commit is a save point
 
 `git log` -> to see changes that we have commited
 
+`git log --oneline`   -> to see changes in breaf
+
 `git show {hashcode of the commit}` -> to see changes by the commit
 
 `git diff` -> give the difference between the current working directory and what has been committed
@@ -50,3 +52,14 @@ a commit is a save point
 `git checkout {branch_name}`     -> switch to the branch {branch_name}
 
 `git chekcout -`     -> switch back to the previous branch
+
+
+
+## steps of adding a feature
+
+- create a branch with feature_name
+- commit the changes
+- push to the remote
+- do a pull request
+- merge the branch with the main
+- delete the branch from the remote and from the local 
