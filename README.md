@@ -28,7 +28,8 @@ a commit is a save point
 
 ## git remote
 
-`git remote add {name} {url}`   -> create new remote called {name} (usually named as origin) located at {url} (we can push to {name} instead of typing the complete {url})  -> in other words, __origin__ represents the remote repository
+`git remote add {name} {url}`   -> create new remote called {name} (usually named as __origin__) that represents the {url} (we can push to {name} instead of typing the complete {url})
 
 `git branch -M main`    -> force move/rename a branch
 
+`git push -u {remote} {branch}`     -> push the current branch into remote repository
