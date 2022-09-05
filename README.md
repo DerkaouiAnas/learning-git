@@ -26,10 +26,27 @@ a commit is a save point
 
 
 
-## git remote
+## Git remote
 
 `git remote add {name} {url}`   -> create new remote called {name} (usually named as __origin__) that represents the {url} (we can push to {name} instead of typing the complete {url})
 
 `git branch -M main`    -> force move/rename a branch
 
 `git push -u {remote} {branch}`     -> push the current branch into remote repository
+
+`git pull`      -> copy the commit on the remote to the local working directory
+
+
+## Git brannches
+
+`git branch`    -> to know the branch that you are on (in local)
+
+`git branch -r`     -> to know the list of branches in the remote server
+
+`git branch -a`     -> check all branches
+
+`git branch {branch_name}`  -> create branch {branch_name} based on the current branch
+
+`git checkout {branch_name}`     -> switch to the branch {branch_name}
+
+`git chekcout -`     -> switch back to the previous branch
