@@ -8,8 +8,7 @@
 
 `git reset {filename}` undo `git add {filename}`
 
-`git rest` to unstage all changes for all files
-
+`git reset` to unstage all changes for all files
 
 a commit is a save point
 
@@ -24,3 +23,12 @@ a commit is a save point
 `git restore {filename}` -> discard changes on a file  (if modified after a commit)
 
 `git commit --amend -m "message"` -> this will amend (modify) the commit message
+
+
+
+## git remote
+
+`git remote add {name} {url}`   -> create new remote called {name} (usually named as origin) located at {url} (we can push to {name} instead of typing the complete {url})  -> in other words, __origin__ represents the remote repository
+
+`git branch -M main`    -> force move/rename a branch
+
